@@ -10,7 +10,7 @@ terraform {
 # Configure the AWS Provider
 provider "aws" {
   region  = "ap-northeast-1"
-  profile = "serverless-test"
+  #profile = "default"
 }
 
 data "aws_region" "current" {}
